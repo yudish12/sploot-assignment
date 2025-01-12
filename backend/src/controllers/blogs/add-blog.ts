@@ -25,17 +25,16 @@ export const addBlog = catchAsync(
         throwAppError(validate.code, "BLOGS", validate.status, validate.field)
       );
     }
+    let imageUrl = "";
+    if (req.file) {
+      const cloudinaryInstance = getCloudinaryInstance(
+        process.env.CLOUDINARY_NAME!,
+        process.env.CLOUDINARY_API_KEY!,
+        process.env.CLOUDINARY_API_SECRET!
+      );
 
-    const cloudinaryInstance = getCloudinaryInstance(
-      process.env.CLOUDINARY_NAME!,
-      process.env.CLOUDINARY_API_KEY!,
-      process.env.CLOUDINARY_API_SECRET!
-    );
-
-    const imageUrl = await uploadImageToCloudinary(
-      cloudinaryInstance,
-      req.file
-    );
+      imageUrl = await uploadImageToCloudinary(cloudinaryInstance, req.file);
+    }
 
     const data = await Blogs.create({
       title: body.title,

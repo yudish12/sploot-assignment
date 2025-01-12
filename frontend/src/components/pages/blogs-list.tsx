@@ -36,9 +36,9 @@ const BlogsList = () => {
           className="sm:w-full cursor-pointer w-max mx-auto rounded-xl"
         >
           <Image
-            src={blog.image ?? "/test-blog.avif"}
+            src={blog.image ? blog.image : "/test-blog.avif"}
             alt="test-blog"
-            className="min-h-[270px] rounded-xl"
+            className="h-[270px] rounded-xl"
             width={320}
             height={290}
           />
