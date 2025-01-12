@@ -5,7 +5,7 @@ import BlogsPage from "./page-rendered";
 
 export const revalidate = 3600;
 
-export const dynamicParams = true;
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const blogsResp = await getBlogs("");

@@ -1,7 +1,21 @@
-import { getSingleBlog } from "@/api-functions/blogs";
+import { getBlogs, getSingleBlog } from "@/api-functions/blogs";
 import { BlogType } from "@/types/globals";
 import Image from "next/image";
 import React from "react";
+
+export const revalidate = 3600;
+
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  const blogsResp = await getBlogs("");
+
+  const blogs: BlogType[] = blogsResp.data as BlogType[];
+
+  return blogs.map((blog) => ({
+    id: blog._id,
+  }));
+}
 
 const Page = async ({ params }: { params: Promise<any> }) => {
   const paramList = await params;
