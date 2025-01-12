@@ -1,0 +1,86 @@
+[
+    {
+        "_id": {
+            "$oid": "64d9b4f5e9c8e4b5478f4f01"
+        },
+        "name": "Travel",
+        "icon": "https://a0.muscache.com/pictures/5e5f9ca7-0c2c-4bbf-8e36-71534a08ddc3.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "64d9b4f5e9c8e4b5478f4f02"
+        },
+        "name": "Lifestyle",
+        "icon": "https://a0.muscache.com/pictures/8f8bdb53-2b5b-4b78-b3f4-8266bb40c1c3.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "64d9b4f5e9c8e4b5478f4f03"
+        },
+        "name": "Photography",
+        "icon": "https://a0.muscache.com/pictures/5666a345-5eea-4f26-bb7a-d76e9f9eb22f.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "64d9b4f5e9c8e4b5478f4f04"
+        },
+        "name": "Food & Drinks",
+        "icon": "https://a0.muscache.com/pictures/31fb7c36-2b99-4d5b-b3e2-1db07c60f944.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "64d9b4f5e9c8e4b5478f4f05"
+        },
+        "name": "Health & Fitness",
+        "icon": "https://a0.muscache.com/pictures/223e87d3-2298-4a32-8778-637f96324a2a.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "64d9b4f5e9c8e4b5478f4f06"
+        },
+        "name": "Personal Development",
+        "icon": "https://a0.muscache.com/pictures/46b70df9-6b3f-4f63-afe5-1341c0a5b57b.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "64d9b4f5e9c8e4b5478f4f07"
+        },
+        "name": "Technology",
+        "icon": "https://a0.muscache.com/pictures/af3a6c9d-7b8e-4b6b-bddb-2cfcf11b9b5b.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "64d9b4f5e9c8e4b5478f4f08"
+        },
+        "name": "Business",
+        "icon": "https://a0.muscache.com/pictures/bb8ed5b9-1d6f-482f-b40e-18d955d84975.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "64d9b4f5e9c8e4b5478f4f09"
+        },
+        "name": "Fashion",
+        "icon": "https://a0.muscache.com/pictures/8e9ac3e8-b540-4c9c-9758-27fdd874dd7a.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "64d9b4f5e9c8e4b5478f4f0a"
+        },
+        "name": "Art & Design",
+        "icon": "https://a0.muscache.com/pictures/9f299dc5-82ab-4e15-8f0b-fd21a7869a35.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "64d9b4f5e9c8e4b5478f4f0b"
+        },
+        "name": "Parenting",
+        "icon": "https://a0.muscache.com/pictures/afa8d55d-7fa3-4af3-94cf-ffb8eeb5d1a4.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "64d9b4f5e9c8e4b5478f4f0c"
+        },
+        "name": "Finance",
+        "icon": "https://a0.muscache.com/pictures/bd914e29-b67e-4930-95f4-fd8cc43e8c5c.jpg"
+    }
+]
